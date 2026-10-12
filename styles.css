@@ -214,6 +214,10 @@ a{color:inherit}
 }
 .grid-image{background-image:url('assets/grid.jpg')}
 .isg-image{background-image:url('assets/isg.jpg')}
+.work-card-entry{grid-column:1/-1;grid-template-columns:66% 34%;min-height:230px}
+.work-image{background-image:linear-gradient(135deg,rgba(7,29,49,.08),rgba(199,25,70,.18)),url('assets/hero.jpg');background-position:72% center}
+.work-icon{background:#eef8f7}
+.work-icon svg{stroke:#0f766e}
 
 .feature-strip{
   display:grid;
@@ -456,6 +460,7 @@ a{color:inherit}
   .hero h1{font-size:44px}
   .products-wrap{padding:18px 18px 0;margin-top:0}
   .products{grid-template-columns:1fr}
+  .work-card-entry{grid-column:auto;grid-template-columns:58% 42%}
   .feature-strip{margin:20px -18px 0}
   .about-grid,.section-header,.reference-grid,.contact-card{grid-template-columns:1fr}
   .solution-grid{grid-template-columns:1fr 1fr}
@@ -470,7 +475,7 @@ a{color:inherit}
   .hero-inner>p{font-size:15px}
   .hero-capabilities{display:grid;grid-template-columns:1fr 1fr;gap:14px}
   .capability{border-right:0;padding:0}
-  .product-card{grid-template-columns:1fr}
+  .product-card,.work-card-entry{grid-template-columns:1fr}
   .product-image{height:150px;grid-row:1}
   .product-copy{grid-row:2}
   .product-image:before{background:linear-gradient(180deg,rgba(255,255,255,0),#fff)}
